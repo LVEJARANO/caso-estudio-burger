@@ -4,6 +4,7 @@ PRECIO_DOBLE = 25000
 PRECIO_TRIPLE = 28000
 IMPUESTO_TARJETA = 0.07
 
+# Proceso
 # Función para calcular el precio
 def calcular_precio(tipo_hamburguesa, medio_pago, cantidad):
     # Definir precios según el tipo de hamburguesa
@@ -54,7 +55,7 @@ def validar_datos(tipo_hamburguesa, medio_pago, cantidad):
 
 # Entradas
 tipo_hamburguesa = int(input("Tipos de hamburguesa \n1. Sencilla \n2. Doble \n3. Triple \nIngrese una opcion: "))
-medio_pago = int(input("Ingrese medio de pago \n1. Tarjeta \n2. Otro \n"))
+medio_pago = int(input("Medios de pago \n1. Tarjeta \n2. Otro \nIngrese una opcion: "))
 cantidad = int(input("Ingrese la cantidad: "))
 
 # Salidas
